@@ -1,0 +1,109 @@
+﻿.list-recommend {
+    background: #fff
+}
+
+    .list-recommend .recommend-loading {
+        position: relative
+    }
+
+        .list-recommend .recommend-loading .recommend-loading-anim {
+            height: 1.5rem
+        }
+
+    .list-recommend .recommend-title {
+        height: .8rem;
+        line-height: .8rem;
+        background: #fff;
+        font-size: .3rem;
+        padding: 0 .32rem
+    }
+
+    .list-recommend .recommend-list::after, .list-recommend .recommend-list::before {
+        content: "";
+        height: 0;
+        clear: both;
+        display: table;
+        overflow: hidden
+    }
+
+    .list-recommend .recommend-list li {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        padding-right: .04rem
+    }
+
+        .list-recommend .recommend-list li:nth-child(2n) {
+            float: right;
+            padding-left: .04rem;
+            padding-right: 0
+        }
+
+        .list-recommend .recommend-list li .img {
+            position: relative
+        }
+
+            .list-recommend .recommend-list li .img > img {
+                width: 100%;
+                height: auto;
+                min-height: 3.56rem;
+                border: 0
+            }
+
+            .list-recommend .recommend-list li .img .tag {
+                position: absolute;
+                top: 0;
+                left: 0
+            }
+
+                .list-recommend .recommend-list li .img .tag img {
+                    height: .32rem;
+                    width: auto;
+                    min-height: auto
+                }
+
+        .list-recommend .recommend-list li .recommend-info {
+            padding: .18rem .27rem
+        }
+
+            .list-recommend .recommend-list li .recommend-info .recommend-name {
+                font-size: .28rem;
+                color: rgba(0,0,0,.87);
+                white-space: nowrap;
+                overflow: hidden
+            }
+
+            .list-recommend .recommend-list li .recommend-info .recommend-brief {
+                margin-top: .16rem;
+                font-size: .24rem;
+                color: rgba(0,0,0,.54);
+                line-height: .3rem;
+                height: .3rem;
+                overflow: hidden
+            }
+
+            .list-recommend .recommend-list li .recommend-info .recommend-price {
+                font-size: .32rem;
+                color: #ff6000;
+                margin-top: .1rem
+            }
+
+                .list-recommend .recommend-list li .recommend-info .recommend-price::before {
+                    content: "￥";
+                    font-size: .2rem;
+                    vertical-align: top;
+                    margin-right: .05rem;
+                    font-weight: 400;
+                    display: inline-block;
+                    transform: translateY(0.01rem);
+                    -webkit-transform: translateY(0.01rem)
+                }
+
+                .list-recommend .recommend-list li .recommend-info .recommend-price .old {
+                    font-size: .22rem;
+                    color: rgba(0,0,0,.6)
+                }
+
+                .list-recommend .recommend-list li .recommend-info .recommend-price span {
+                    font-size: .3rem
+                }

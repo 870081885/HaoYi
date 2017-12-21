@@ -1,0 +1,83 @@
+﻿.page-category .page-category-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background: #fff;
+    padding-bottom: 1.2rem;
+    -webkit-overflow-scrolling: touch
+}
+
+.page-category .list-navbar {
+    position: fixed;
+    top: .84rem;
+    bottom: .8rem;
+    width: 1.52rem;
+    margin-top: 1px;
+    z-index: 90;
+    border-right: 1px solid #efefef;
+    overflow: hidden
+}
+
+    .page-category .list-navbar > ul {
+        z-index: 90;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: -.3rem;
+        padding: .2rem .3rem .2rem 0;
+        background: #fefefe;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+        .page-category .list-navbar > ul::-webkit-scrollbar {
+            display: none
+        }
+
+        .page-category .list-navbar > ul.fixed {
+            top: 0;
+            position: fixed
+        }
+
+        .page-category .list-navbar > ul li {
+            font-size: .34rem;
+            height: .9rem;
+            line-height: .9rem;
+            overflow: hidden;
+            text-align: center;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            transition: transform .1s linear;
+            transform-origin: center center;
+            transform: scale(0.76);
+            -webkit-transition: -webkit-transform .1s linear;
+            -webkit-transform-origin: center center;
+            -webkit-transform: scale(0.76)
+        }
+
+            .page-category .list-navbar > ul li span {
+                display: inline-block
+            }
+
+            .page-category .list-navbar > ul li.active {
+                color: #fb7d34;
+                transform: scale(1);
+                -webkit-transform: scale(1)
+            }
+
+.page-category .section {
+    overflow: hidden
+}
+
+.page-category .list-wrap {
+    margin-left: 1.52rem;
+    padding: 2px .32rem;
+    overflow: hidden
+}
+
+    .page-category .list-wrap > div:last-child {
+        min-height: calc(100vh - .8rem)
+    }

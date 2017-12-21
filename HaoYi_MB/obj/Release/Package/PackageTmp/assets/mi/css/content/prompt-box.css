@@ -1,0 +1,80 @@
+﻿.bt_mask {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(228,226,232,.22)
+}
+
+.bt_panel {
+    position: absolute;
+    top: 30%;
+    z-index: 12;
+    left: 5%;
+    right: 5%;
+    background: #fff;
+    -webkit-border-radius: .04rem;
+    -moz-border-radius: .04rem;
+    -ms-border-radius: .04rem;
+    -o-border-radius: .04rem;
+    border-radius: .04rem;
+    -webkit-box-shadow: rgba(0,0,0,.2) 0 0 1em;
+    -moz-box-shadow: rgba(0,0,0,.2) 0 0 1em;
+    -ms-box-shadow: rgba(0,0,0,.2) 0 0 1em;
+    -o-box-shadow: rgba(0,0,0,.2) 0 0 1em;
+    box-shadow: rgba(0,0,0,.2) 0 0 1em;
+    padding: .5rem .2rem .8rem
+}
+
+    .bt_panel .tit {
+        text-align: center;
+        font-size: .3rem;
+        font-weight: 700
+    }
+
+        .bt_panel .tit p {
+            font-size: 2.2em;
+            font-weight: 700;
+            color: #51555A
+        }
+
+    .bt_panel .tips {
+        font-size: .3rem;
+        text-align: center;
+        line-height: .4rem;
+        margin-top: 1em
+    }
+
+    .bt_panel .bt_close {
+        display: block;
+        width: .3rem;
+        height: .3rem;
+        position: absolute;
+        top: .2rem;
+        right: .2rem;
+        color: #333;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+.loading {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0
+}
+
+#load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -.5em auto auto -.5em
+}

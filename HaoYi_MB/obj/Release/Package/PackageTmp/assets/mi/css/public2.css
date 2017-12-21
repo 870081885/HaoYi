@@ -1,0 +1,1225 @@
+﻿
+html, body, h1, h2, h3, h4, h5, h6, blockquote, p, pre, dl, dd, ol, ul, li, a, span, caption, th, td, form, fieldset, legend, input, button, textarea, address {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    list-style: none
+}
+
+fieldset, img {
+    border: 0
+}
+
+address, cite, dfn, em, var {
+    font-style: normal
+}
+
+code, kbd, pre, samp {
+    font-family: courier new,courier,monospace
+}
+
+input, button, textarea, select {
+    font-size: 100%
+}
+
+input, button, select, textarea {
+    outline: 0
+}
+
+textarea {
+    resize: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: inherit
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+a, label, :focus {
+    outline: 0 none
+}
+
+a, img, input {
+    border: 0 none
+}
+
+s {
+    font-style: normal;
+    text-decoration: none
+}
+
+body {
+    font-size: 12px;
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif
+}
+
+button, input, select, textarea {
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif
+}
+
+    input::-moz-placeholder, textarea::-moz-placeholder {
+        color: #3b3b3b;
+        font-weight: normal
+    }
+
+::-webkit-input-placeholder {
+    color: #3b3b3b;
+    font-weight: normal
+}
+
+input:-ms-input-placeholder {
+    color: #3b3b3b;
+    font-weight: normal
+}
+
+::-ms-clear {
+    display: none
+}
+
+::-ms-reveal {
+    display: none
+}
+
+.clearfix:after {
+    display: block;
+    content: "\20";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+input::-ms-clear {
+    display: none
+}
+
+input::-ms-reveal {
+    display: none
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+    a {
+        background-color: transparent
+    }
+}
+
+input {
+    background: 0;
+    border: 0 none
+}
+
+    input[type="button"], input[type="submit"], input[type="reset"], a {
+        -webkit-appearance: none;
+        appearance: none
+    }
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.nbg {
+    background: none !important
+}
+
+.t_l {
+    text-align: left
+}
+
+.t_c {
+    text-align: center
+}
+
+.t_r {
+    text-align: right
+}
+
+.c_b:before, .c_b:after {
+    content: "";
+    display: block
+}
+
+.c_b:after {
+    clear: both
+}
+
+.c_b {
+    zoom: 1
+}
+
+.hidden, .hide {
+    display: none
+}
+
+.hideimportant {
+    display: none !important
+}
+
+.underline {
+    text-decoration: underline
+}
+
+input[type=text]::-ms-clear, input[type=password]::-ms-reveal {
+    display: none
+}
+
+input {
+    color: #333
+}
+
+    input:required, input:invalid {
+        -moz-box-shadow: none;
+        box-shadow: none
+    }
+
+    input::-moz-focus-inner {
+        border: 0
+    }
+
+@media only screen and (max-width:420px) {
+    html {
+        font-size: 625%
+    }
+}
+
+@media only screen and (max-width:580px) and (min-width:421px) {
+    html {
+        font-size: 687.5%
+    }
+}
+
+@media only screen and (max-width:540px) and (min-width:480px) {
+    html {
+        font-size: 750%
+    }
+}
+
+@media only screen and (max-width:660px) and (min-width:541px) {
+    html {
+        font-size: 781.25%
+    }
+}
+
+@media only screen and (max-width:720px) and (min-width:661px) {
+    html {
+        font-size: 812.5%
+    }
+}
+
+@media only screen and (min-width:720px) {
+    html {
+        font-size: 875%
+    }
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    background: #eee;
+    color: #666;
+    font-size: .14rem
+}
+
+a {
+    color: #757575
+}
+
+.a_critical {
+    color: #ababab
+}
+
+    .a_critical:hover {
+        color: #ff7e00
+    }
+
+input {
+    color: #333
+}
+
+::-webkit-input-placeholder {
+    color: #9d9d9d
+}
+
+input:-ms-input-placeholder {
+    color: #9d9d9d
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto
+}
+
+.wrap {
+    padding-bottom: .9rem
+}
+
+.layout {
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.header_tit {
+    padding: 40px 0 22px
+}
+
+.milogo {
+    background-image: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png);
+    width: 49px;
+    height: 48px;
+    margin: 0 auto 22px;
+    display: block;
+    background-image: -webkit-image-set(url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo.png) 1x,url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/milogo@2x.png) 2x)
+}
+
+.header_tit_txt {
+    font-size: .2rem;
+    color: #424242;
+    font-weight: normal
+}
+
+.login_area {
+    padding-bottom: 20px
+}
+
+.labelbox {
+    display: block;
+    padding: 0 10px;
+    background-color: #fff;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 1px 1px rgba(11,3,5,0.1);
+    box-shadow: 0 1px 1px rgba(11,3,5,0.1)
+}
+
+    .labelbox input {
+        width: 100%;
+        padding: .1rem 0;
+        line-height: normal;
+        display: block;
+        font-size: .16rem
+    }
+
+.login_user {
+    margin-bottom: 1px;
+    -webkit-border-radius: 16px 16px 0 0;
+    -moz-border-radius: 16px 16px 0 0;
+    -o-border-radius: 16px 16px 0 0;
+    border-radius: 16px 16px 0 0;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center
+}
+
+.item_account {
+    -webkit-box-flex: 1;
+    box-flex: 1
+}
+
+.country_list {
+    font-size: .16rem;
+    display: none
+}
+
+.country_regin {
+    max-width: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+.turn_area {
+    display: none;
+    padding-right: 8px
+}
+
+.btn_turn {
+    width: .11rem;
+    height: .11rem;
+    display: block;
+    position: relative
+}
+
+    .btn_turn:before, .btn_turn:after {
+        content: "";
+        width: 100%;
+        height: .01rem;
+        background-color: rgba(0,0,0,0.3);
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 50%
+    }
+
+    .btn_turn:before {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg)
+    }
+
+    .btn_turn:after {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg)
+    }
+
+.turn_off {
+    display: none
+}
+
+.add_regioncode .country_list {
+    padding: .1rem 10px .1rem 0;
+    margin-right: 8px;
+    color: #333;
+    display: block;
+    overflow: hidden;
+    border-right: 1px solid #e0e0e0
+}
+
+    .add_regioncode .country_list .country_code {
+        display: -webkit-box;
+        display: box;
+        -webkit-box-align: center;
+        box-align: center
+    }
+
+        .add_regioncode .country_list .country_code tt {
+            margin-right: 5px
+        }
+
+.add_regioncode .turn_area {
+    display: block
+}
+
+.add_regioncode .animation {
+    position: relative;
+    -webkit-animation: fade-in ease-in-out .5s;
+    animation-name: fade-in;
+    animation-timing-function: ease-in-out;
+    animation-duration: .5s
+}
+
+.icon_arrow_down {
+    margin-left: 5px;
+    margin-top: -.05rem;
+    display: block;
+    width: .05rem;
+    height: .05rem;
+    border-width: .01rem;
+    border-style: solid;
+    border-color: transparent transparent #333 #333;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.pwd_panel {
+    -webkit-border-radius: 0 0 16px 16px;
+    -moz-border-radius: 0 0 16px 16px;
+    -o-border-radius: 0 0 16px 16px;
+    border-radius: 0 0 16px 16px;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-direction: reverse;
+    box-direction: reverse
+}
+
+    .pwd_panel input {
+        -webkit-box-flex: 1;
+        box-flex: 1
+    }
+
+.eye_panel {
+    padding-left: 5px
+}
+
+.eye {
+    width: 20px;
+    height: 16px;
+    display: block
+}
+
+    .eye.chk .eye_outer, .eye.chk .eye_inner {
+        fill: #33b4ff
+    }
+
+.eye_outer {
+    fill: #4d4d4d
+}
+
+.eye_inner {
+    fill: #4d4d4d;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-opacity: .8
+}
+
+.lgncode {
+    padding: 14px 0;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center
+}
+
+.code_label {
+    -webkit-box-flex: 1;
+    box-flex: 1
+}
+
+.chkcode_img {
+    margin-left: 10px
+}
+
+.btns_bg {
+    padding-top: 24px;
+    padding-bottom: 15px
+}
+
+.btnadpt {
+    width: 100%;
+    padding: .1rem 0;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: .16rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -o-border-radius: .2rem;
+    border-radius: .2rem;
+    border: 1px solid rgba(186,186,186,0.3);
+    overflow: hidden
+}
+
+.btn_orange {
+    background-color: #33b4ff
+}
+
+.btn_facebook {
+    background-color: #3a5897
+}
+
+.btn_qq {
+    background-color: #0288d1
+}
+
+.btn_weibo {
+    background-color: #d32f2f
+}
+
+.btn_alipay {
+    background-color: #0ae
+}
+
+.btn_weixin {
+    background-color: #00d20d
+}
+
+.btn_sns_icontype {
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/iconstype_wap.png);
+    display: block;
+    background-size: auto 19px;
+    width: 26px;
+    height: 19px
+}
+
+.sns-default-container .btn_sns_icontype {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_default_qq {
+    background-position: 0 0
+}
+
+.icon_default_weibo {
+    background-position: -25px 0
+}
+
+.icon_default_alipay {
+    background-position: -50px 0
+}
+
+.icon_default_weixin {
+    background-position: -76px 0
+}
+
+.icon_default_alipay {
+    margin-right: 5px
+}
+
+.icon_default_facebook {
+    background: 0;
+    display: inline !important
+}
+
+.btn_facebook:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    background: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/fb.png);
+    display: inline-block;
+    vertical-align: middle
+}
+
+.oth_type_tit {
+    border-top: 1px dashed #bdbdbd;
+    padding-top: 10px
+}
+
+.oth_type_txt {
+    font-size: .14rem;
+    color: #b0b0b0
+}
+
+.oth_type_links {
+    padding-top: 10px;
+    text-align: center;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    box-pack: center
+}
+
+    .oth_type_links .btn_weixin {
+        display: none
+    }
+
+.icon_type {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    display: inline-block;
+    text-indent: -9999px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+    .icon_type .btn_sns_icontype {
+        background-size: auto 29px;
+        width: 39px;
+        height: 29px;
+        margin: 8px auto 0
+    }
+
+    .icon_type .icon_default_qq {
+        background-position: 0 0
+    }
+
+    .icon_type .icon_default_weibo {
+        background-position: -39px 0
+    }
+
+    .icon_type .icon_default_alipay {
+        background-position: -78px 0
+    }
+
+    .icon_type .icon_default_weixin {
+        background-position: -117px 0
+    }
+
+.n_links_area {
+    padding: 20px 0 10px;
+    text-align: center;
+    color: #e0e0e0
+}
+
+    .n_links_area a {
+        padding: 0 9px;
+        font-size: .14rem;
+        color: #757575
+    }
+
+        .n_links_area a:hover {
+            color: #ff6700
+        }
+
+.ercode {
+    background: url(https://account.xiaomi.com/static/res/28f08d0/account-static/respassport/acc-2014/img/ercode_hover.png);
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.ercode_area {
+    display: none;
+    width: 100% !important
+}
+
+.ercode_box {
+    padding-top: 40px
+}
+
+.code_close {
+    background-color: #bdbdbd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    width: .3rem;
+    height: .3rem;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.icon_code_close {
+    width: .2rem;
+    height: .2rem;
+    margin: 0 auto;
+    display: block;
+    position: relative
+}
+
+    .icon_code_close:before, .icon_code_close:after {
+        content: "";
+        width: 100%;
+        height: .01rem;
+        background-color: rgba(0,0,0,0.3);
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: .04rem
+    }
+
+    .icon_code_close:before {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg)
+    }
+
+    .icon_code_close:after {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg)
+    }
+
+.code_hd {
+    padding-bottom: 20px
+}
+
+.zh_CN .code_hd, .zh_TW .code_hd {
+    text-align: center
+}
+
+.code_tit {
+    font-size: .2rem;
+    text-align: center;
+    color: #ff6700;
+    font-weight: normal;
+    padding-bottom: 10px
+}
+
+.code_iframe {
+    text-align: center
+}
+
+.country-container {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    line-height: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 98;
+    display: none;
+    font-size: .16rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.country_container_con {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical
+}
+
+.country-code {
+    padding: 0 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-box-flex: 1;
+    box-flex: 1
+}
+
+    .country-code .header {
+        border-bottom: 1px solid #eee;
+        padding: 30px 0 5px 0;
+        font-size: .14rem;
+        color: #a3a3a3;
+        font-weight: bold
+    }
+
+    .country-code .record {
+        padding: .14rem 0;
+        border-bottom: 1px solid #eee;
+        overflow: hidden
+    }
+
+    .country-code .record-country {
+        float: left;
+        max-width: 74%;
+        color: #000
+    }
+
+    .country-code .record-code {
+        float: right;
+        max-width: 20%;
+        color: #cacaca
+    }
+
+    .country-code .code_style1 {
+        background: #f2f6e9;
+        border: 1px solid #b7ce8b
+    }
+
+    .country-code .code_style2 {
+        background: #f8f2ec;
+        border: 1px solid #fac084
+    }
+
+    .country-code .code_style3 {
+        background: #f9eaeb;
+        border: 1px solid #fca1a7
+    }
+
+    .country-code .code_style4 {
+        background: #f2f2f2;
+        border: 1px solid #c9c9c9
+    }
+
+    .country-code .code_style5 {
+        background: #e1f6f6;
+        border: 1px solid #73bade
+    }
+
+.countrycode-container-usual .header {
+    display: none
+}
+
+.countrycode-container-usual .list {
+    zoom: 1
+}
+
+    .countrycode-container-usual .list:before, .countrycode-container-usual .list:after {
+        content: "";
+        display: block
+    }
+
+    .countrycode-container-usual .list:after {
+        clear: both
+    }
+
+.countrycode-container-usual .record {
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: .1rem;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px
+}
+
+.countrycode-container-usual .record-country {
+    max-width: 100%
+}
+
+.countrycode-container-usual .record-code {
+    max-width: 100%;
+    display: none
+}
+
+.n-footer {
+    color: #757575;
+    line-height: 1.5;
+    text-align: center;
+    font-size: .14rem;
+    margin-top: -0.9rem;
+    height: .9rem
+}
+
+.nf-intro {
+    padding: 10px
+}
+
+.nf-link-area {
+    text-align: center
+}
+
+    .nf-link-area li {
+        display: inline-block
+    }
+
+    .nf-link-area a {
+        display: inline-block;
+        padding: 0 10px;
+        color: #757575
+    }
+
+        .nf-link-area a:hover {
+            color: #333
+        }
+
+        .nf-link-area a.current {
+            color: #333
+        }
+
+.na-img-area {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    position: relative;
+    z-index: 4;
+    margin: 0 auto
+}
+
+.na-img-bg-area {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+    .na-img-bg-area:empty {
+        background: url(https://account.xiaomi.com/static/res/7c3e9b0/passport/acc-2014/img/n-avator-bg.png) 0 0 no-repeat;
+        background-size: cover
+    }
+
+.na-img-area img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.single_imgarea {
+    text-align: center
+}
+
+    .single_imgarea .us_name {
+        padding-top: 10px
+    }
+
+.confirm_box {
+    line-height: 20px;
+    font-size: .14rem;
+    color: #333
+}
+
+.confirm_con {
+    padding-top: 15px
+}
+
+    .confirm_con .txt {
+        padding-bottom: 5px
+    }
+
+    .confirm_con .labelbox:nth-of-type(1) {
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -o-border-radius: 16px;
+        border-radius: 16px
+    }
+
+.lgn_inputbg .confirm_con + .labelbox {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px
+}
+
+.lgn_inputbg .accinfo_single_label {
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+    -o-border-radius: 16px !important;
+    border-radius: 16px !important
+}
+
+.err_tip {
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: #f56700;
+    display: none
+}
+
+.dis_box {
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center
+}
+
+.icon_error {
+    width: .14rem;
+    height: .14rem;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    display: block;
+    background-color: #ff6700;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+    .icon_error:before, .icon_error:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: .02rem;
+        background-color: #fff
+    }
+
+    .icon_error:before {
+        height: .05rem;
+        margin-top: .03rem
+    }
+
+    .icon_error:after {
+        height: .02rem;
+        margin-top: .01rem
+    }
+
+.err_tip span {
+    -webkit-box-flex: 1;
+    box-flex: 1
+}
+
+.err_forbidden {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    line-height: 1.5;
+    background: #fff;
+    color: #ff6700;
+    display: none
+}
+
+.error_bg {
+    border: 1px solid #f56700 !important
+}
+
+@media only screen and (min-width:520px) {
+    .layout {
+        max-width: 80%
+    }
+}
+
+@media only screen and (min-width:720px) {
+    .layout {
+        max-width: 500px
+    }
+
+    .labelbox {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px
+    }
+
+    .lgn_inputbg .labelbox:nth-of-type(1) {
+        -webkit-border-radius: 2px 2px 0 0;
+        -moz-border-radius: 2px 2px 0 0;
+        -o-border-radius: 2px 2px 0 0;
+        border-radius: 2px 2px 0 0;
+        margin-bottom: 1px
+    }
+
+    .lgn_inputbg .labelbox:nth-of-type(2) {
+        -webkit-border-radius: 0 0 2px 2px;
+        -moz-border-radius: 0 0 2px 2px;
+        -o-border-radius: 0 0 2px 2px;
+        border-radius: 0 0 2px 2px
+    }
+
+    .btnadpt {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px
+    }
+
+    .btn_orange {
+        background-color: #ef5b00
+    }
+}
+
+@-webkit-keyframes fade-in {
+    from {
+        left: -100%
+    }
+
+    to {
+        left: 0
+    }
+}
+
+@keyframes fade-in {
+    from {
+        left: -100%
+    }
+
+    to {
+        left: 0
+    }
+}
+
+.search-code {
+    margin: 20px 10px 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -o-border-radius: .2rem;
+    border-radius: .2rem;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center
+}
+
+.icon_search {
+    display: block;
+    margin-left: 10px
+}
+
+.icon_search {
+    width: .13rem;
+    height: .13rem;
+    margin-top: -.04rem;
+    border: .029rem solid #b2b2b2;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%
+}
+
+    .icon_search:before {
+        content: "";
+        width: .029rem;
+        height: .1rem;
+        background: #b2b2b2;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin-right: -.06rem;
+        margin-top: -.04rem;
+        -webkit-transform: rotate(-50deg);
+        transform: rotate(-50deg)
+    }
+
+.search-code-input {
+    padding: .1rem 13px;
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1
+}
+
+.search-mode .header, .search-mode .record {
+    display: none
+}
+
+.search-mode .countrycode-container-usual .record, .search-mode .selected {
+    display: block
+}
+
+.only_pwdlogin .ercode {
+    display: none
+}
+
+.only_qrlogin .code_close, .only_qrlogin .code_hd, .only_qrlogin .n-footer {
+    display: none
+}
+
+.only_qrlogin .wrap, .only_qrlogin .ercode_box {
+    padding: 0
+}
+
+.only_qrlogin .layout {
+    margin: 0
+}
+
+.only_qrlogin .wrapper, .only_qrlogin .ercode_pannel {
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    box-pack: center
+}
+
+.only_qrlogin .ercode_pannel {
+    width: 100%;
+    height: 100%
+}
+
+.security_Controller {
+    display: none
+}
+
+.tabs_con {
+    display: none
+}
+
+    .tabs_con.now {
+        display: block
+    }
+
+.nav_tabs_panel, .bgiframe {
+    display: none
+}
